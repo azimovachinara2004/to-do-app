@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+input:checked + span {
+	text-decoration: line-through;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
